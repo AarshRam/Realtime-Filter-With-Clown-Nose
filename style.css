@@ -1,0 +1,29 @@
+.line{
+    background-color: aqua;
+    width: 50%;
+    height: 3px;
+}
+
+.btn-success:hover{
+    background-color : darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.position{
+    position: fixed;
+    width:100%;
+    bottom: 50;
+    height: 10px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{ from {box-shadow: 25px 25px 25px  red;} 
+to {box-shadow: 25px 25px 25px rgb(55, 226, 32);
+} }
